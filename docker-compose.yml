@@ -1,0 +1,37 @@
+version: '3.3'
+
+services:
+  alpha:
+    container_name: alpha
+    image: php:apache
+    ports:
+      - 80:80
+    volumes:
+      - ./alpha:/var/www/html
+      - ./php.ini-production:/usr/local/etc/php/conf.d/custom.ini
+      - ./apache2.conf:/etc/apache2/apache2.conf
+    networks:
+      - coba-network
+  beta:
+    container_name: beta
+    build:
+      context: .
+      dockerfile: ./beta-app
+    ports:
+      - 8888:80
+    volumes:
+      - beta:/var/www/html
+    tty: true
+    stdin_open: true
+    networks:
+      - coba-network
+networks:
+  coba-network:
+    name: coba-network
+volumes:
+  beta:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: './beta'

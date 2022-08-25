@@ -1,0 +1,5 @@
+FROM php:apache
+RUN echo asd > /var/www/html/asd.txt
+COPY beta/ /var/www/html
+EXPOSE 8888
+EXPOSE 80

