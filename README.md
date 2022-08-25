@@ -12,6 +12,7 @@ docker-py version: 5.0.3
 CPython version: 3.9.2
 OpenSSL version: OpenSSL 1.1.1l  24 Aug 2021
 ```
+* clone this repository
 * build instance docker ```sudo docker-compose build```
 * create instance docker ```sudo docker-compose up -d```
 * run script ```sudo bash start.sh```
