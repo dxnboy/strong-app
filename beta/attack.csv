@@ -1,4 +1,5 @@
 ip address, attack, message
+<<<<<<< HEAD
 192.168.128.1,Directory Listing,192.168.128.1 had attempted Directory Listing
 192.168.128.1,Directory Listing,192.168.128.1 had attempted Directory Listing
 192.168.128.1,Directory Listing,192.168.128.1 had attempted Directory Listing
@@ -13,3 +14,5 @@ ip address, attack, message
 192.168.128.1,Remote Command Execution,192.168.128.1 had attempted Remote Command Execution
 192.168.128.1,Remote File Inclution,192.168.128.1 had attempted Remote File Inclution
 192.168.128.1,Remote File Inclution,192.168.128.1 had attempted Remote File Inclution
+=======
+>>>>>>> 3529ae3 (edit readme)

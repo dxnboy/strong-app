@@ -5,11 +5,23 @@ Alpha is a strong web app with minimum feature. And Beta is monitoring app for s
 ### Install app
 
 * install docker-compose
+<<<<<<< HEAD
 * create instance docker
 ```
 sudo docker-compose build
 sudo docker-compose up -d
 ```
+=======
+* my docker-compose version
+```
+docker-compose version 1.29.2, build unknown
+docker-py version: 5.0.3
+CPython version: 3.9.2
+OpenSSL version: OpenSSL 1.1.1l  24 Aug 2021
+```
+* build instance docker ```sudo docker-compose build```
+* create instance docker ```sudo docker-compose up -d```
+>>>>>>> 3529ae3 (edit readme)
 * run script ```sudo bash start.sh```
 
 ### Alpha app
